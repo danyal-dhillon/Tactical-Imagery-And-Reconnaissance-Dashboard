@@ -1,0 +1,53 @@
+services:
+  tactical-dashboard:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: tactical-satellite-intel:latest
+    container_name: tactical-dashboard
+    init: true
+    stdin_open: true   # keeps STDIN open so GUI dialogs and Ctrl+C behave
+    tty: true
+    stop_grace_period: 30s   # app waits for the QThread worker + TechInt threads on close
+
+    environment:
+      # Display forwarding (GUI app). WSLg on Windows provides this automatically.
+      DISPLAY: ${DISPLAY:-:0}
+      QT_X11_NO_MITSHM: "1"
+      # Tier 2 TechInt providers (optional — Tier 1 SQLite dictionary always works)
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      # Inside a container, localhost is the container itself. Point Ollama at the host.
+      OLLAMA_URL: ${OLLAMA_URL:-http://host.docker.internal:11434/api/generate}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-llama3}
+
+    # Lets the container reach services running on the host (Ollama) on Linux.
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    volumes:
+      # Bind-mount the repository: live code edits, the trained weights, the
+      # SQLite database (tactical_intel.db) and generated PDF briefings all
+      # persist on the host instead of inside the container layer.
+      - ..:/app
+      # X11 socket for display forwarding (Linux hosts / WSLg).
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+
+    # --- Optional: analyze imagery/video stored outside the repository -------
+    # volumes:
+    #   - ./path/to/media:/media:ro
+
+    # --- Optional: live camera streams (Linux hosts) -------------------------
+    # devices:
+    #   - /dev/video0:/dev/video0
+
+    # --- Optional: GPU acceleration (requires nvidia-container-toolkit) ------
+    # The image ships CPU PyTorch by default. To use CUDA instead, rebuild with
+    # the CUDA base image and enable this block:
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]

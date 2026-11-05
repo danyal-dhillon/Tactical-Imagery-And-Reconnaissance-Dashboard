@@ -1,0 +1,28 @@
+# Build context is the repository root (docker/Dockerfile is invoked with
+# `context: ..` from docker-compose.yml). Keep the context lean.
+
+.git
+.gitignore
+.dockerignore
+
+# Python caches and local environments
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Runtime artifacts — created fresh inside the container / bind-mounted at run time
+tactical_intel.db
+*.pdf
+
+# Docs and media assets are not needed in the image
+docs/
+*.md
+
+# IDE / OS cruft
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
