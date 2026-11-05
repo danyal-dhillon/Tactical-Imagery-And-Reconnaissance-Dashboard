@@ -1,1 +1,1 @@
-"""Core processing package: database, inference engine, reporters, TechInt router."""
+"""Core processing package: database, inference engine, reporters, TechInt router..."""
