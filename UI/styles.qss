@@ -1,0 +1,151 @@
+/* ---------------------------------------------------------------------------
+   Tactical Satellite Imagery & Reconnaissance Dashboard
+   Modern dark combat theme overrides
+   Background: #121414 | Surface: #1A1D1D | Accent: #2E3434
+   Text: #E1E4E4 | Threat Alert: #E74C3C
+--------------------------------------------------------------------------- */
+
+QMainWindow, QWidget {
+    background-color: #121414;
+    color: #E1E4E4;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 12px;
+}
+
+QGroupBox {
+    background-color: #1A1D1D;
+    border: 1px solid #2E3434;
+    border-radius: 4px;
+    margin-top: 14px;
+    padding: 10px 8px 8px 8px;
+    font-weight: bold;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 6px;
+    color: #E1E4E4;
+}
+
+QLineEdit, QComboBox {
+    background-color: #121414;
+    border: 1px solid #2E3434;
+    border-radius: 3px;
+    padding: 5px;
+    color: #E1E4E4;
+    selection-background-color: #E74C3C;
+}
+
+QLineEdit:disabled, QComboBox:disabled {
+    color: #5A6262;
+    border: 1px solid #222828;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #1A1D1D;
+    color: #E1E4E4;
+    selection-background-color: #2E3434;
+}
+
+QPushButton {
+    background-color: #1A1D1D;
+    border: 1px solid #2E3434;
+    border-radius: 3px;
+    padding: 8px 10px;
+    color: #E1E4E4;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    border: 1px solid #E74C3C;
+}
+
+QPushButton:disabled {
+    color: #5A6262;
+    border: 1px solid #222828;
+}
+
+QPushButton#engageButton {
+    background-color: #E74C3C;
+    border: 1px solid #E74C3C;
+    color: #FFFFFF;
+}
+
+QPushButton#engageButton:disabled {
+    background-color: #3A2724;
+    border: 1px solid #3A2724;
+    color: #7A6A68;
+}
+
+QPushButton#techintButton {
+    padding: 2px 10px;
+    font-weight: normal;
+}
+
+QTableWidget, QListWidget {
+    background-color: #1A1D1D;
+    border: 1px solid #2E3434;
+    gridline-color: #2E3434;
+    alternate-background-color: #1F2323;
+    selection-background-color: #2E3434;
+    selection-color: #E1E4E4;
+}
+
+QTableWidget::item {
+    padding: 3px;
+}
+
+QHeaderView::section {
+    background-color: #2E3434;
+    color: #E1E4E4;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+QLabel#displayCanvas {
+    background-color: #0B0D0D;
+    border: 2px solid #2E3434;
+    border-radius: 4px;
+    color: #5A6262;
+}
+
+QLabel#panelTitle {
+    font-size: 13px;
+    font-weight: bold;
+    color: #E74C3C;
+}
+
+QLabel#fieldLabel {
+    color: #9AA2A2;
+    font-weight: bold;
+}
+
+QLabel#statusLabel {
+    background-color: #1A1D1D;
+    border: 1px solid #2E3434;
+    padding: 6px;
+}
+
+QLabel#fieldNote {
+    color: #6B7474;
+}
+
+QFrame#sectionDivider {
+    color: #2E3434;
+}
+
+QMessageBox {
+    background-color: #1A1D1D;
+}
+
+QToolTip {
+    background-color: #1A1D1D;
+    color: #E1E4E4;
+    border: 1px solid #2E3434;
+}
+
+QFileDialog {
+    background-color: #121414;
+}
