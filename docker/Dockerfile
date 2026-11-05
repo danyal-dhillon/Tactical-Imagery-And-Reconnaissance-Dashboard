@@ -3,7 +3,7 @@
 #
 # This is a PyQt6 GUI application: the container must be launched with access
 # to an X11/Wayland display (WSLg on Windows, forwarded X socket on Linux).
-# See docker/README.md for the exact launch commands per platform.
+# See docker/README.md for the exact launch commands per platform..
 
 FROM python:3.11-slim-bookworm
 

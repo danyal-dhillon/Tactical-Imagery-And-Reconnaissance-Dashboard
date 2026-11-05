@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh 
 set -e
 
 # The dashboard is a PyQt6 GUI and will not start without a display.

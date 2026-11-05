@@ -77,7 +77,7 @@ docker compose -f docker/docker-compose.yml down
 ```
 
 Closing the app window inside the container stops the process; `stop_grace_period:
-30s` gives the inference `QThread` and TechInt threads time to shut down cleanly.
+30s` gives the inference `QThread` and TechInt threads time to shut down cleanly..
 
 ## Configuration
 
