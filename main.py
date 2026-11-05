@@ -11,12 +11,29 @@ Usage:
 import os
 import sys
 
-from PyQt6.QtWidgets import QApplication
+# ---------------------------------------------------------------------------
+# Path bootstrap: guarantee the project root (this file's directory) is on
+# sys.path so the config/, core/, and ui/ packages resolve no matter how the
+# script is launched (IDE runner, python -m, different working directory...).
+# ---------------------------------------------------------------------------
 
-from config import settings
-from core.database import DatabaseManager
-from ui.components import load_stylesheet
-from ui.main_window import MainWindow
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
+for _package in ("config", "core", "ui"):
+    if not os.path.isdir(os.path.join(PROJECT_ROOT, _package)):
+        raise SystemExit(
+            f"Startup failure: the '{_package}\\' folder must sit next to main.py. "
+            "Restore the full project structure (config/, core/, ui/, weights/) and retry."
+        )
+
+from PyQt6.QtWidgets import QApplication  # noqa: E402
+
+from config import settings  # noqa: E402
+from core.database import DatabaseManager  # noqa: E402
+from ui.components import load_stylesheet  # noqa: E402
+from ui.main_window import MainWindow  # noqa: E402
 
 
 def ensure_runtime_layout():
