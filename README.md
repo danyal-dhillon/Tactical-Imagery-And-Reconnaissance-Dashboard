@@ -219,11 +219,6 @@ python main.py
 4. Select any session in the **SESSION HISTORY** list, then press **COMPILE INTEL REPORT (PDF)** to generate `tactical_briefing_session_[ID].pdf`.
 5. Press **VIEW** on any tracker row to pull TechInt context for that asset class.
 
-<!-- [MEDIA] Optional: GIF walkthrough of the full operator workflow above.
-     Recommended: 20 s GIF, 1280px wide.
-     File: docs/assets/workflow.gif -->
-<img src="docs/assets/workflow.gif" alt="End-to-end operator workflow" width="900"/>
-
 ---
 
 ## TechInt Configuration (Tier 2 — Optional)
@@ -322,7 +317,7 @@ PyQt6 · OpenCV · Ultralytics YOLOv8 · SQLite · ReportLab · NumPy
 
 ## Security & Responsible Use
 
-- The model weights, detection database, and generated briefings are **sensitive artifacts** — store them under the same access controls as the source.
+- The model weights, detection database, and generated briefings are **sensitive artifacts** - store them under the same access controls as the source.
 - API keys entered in the UI are held in memory only and can alternatively be injected via environment variables.
 - All detections and TechInt enrichments are decision-support aids, not authoritative intelligence. *AI responses may include mistakes.*
 
@@ -330,7 +325,7 @@ PyQt6 · OpenCV · Ultralytics YOLOv8 · SQLite · ReportLab · NumPy
 
 ## License
 
-This software, its source code, the `best.pt` model weights, and all associated documentation are **proprietary and confidential**. No part of this repository may be used, copied, modified, distributed, sublicensed, or sold in any form without the **prior written permission** of the copyright holder. See [LICENSE](LICENSE) for the full text. Licensing inquiries: **[YOUR CONTACT EMAIL]**.
+This software, its source code, the `best.pt` model weights, and all associated documentation are **proprietary and confidential**. No part of this repository may be used, copied, modified, distributed, sublicensed, or sold in any form without the **prior written permission** of the copyright holder. See [LICENSE](LICENSE) for the full text. Licensing inquiries: **[danyaldhillon@outlook.com]**.
 
 ---
 
@@ -339,9 +334,10 @@ This software, its source code, the `best.pt` model weights, and all associated 
 <!-- [MEDIA] Optional: small footer emblem / unit crest / org logo.
      Recommended: 200x200 PNG with transparency.
      File: docs/assets/emblem.png -->
-<img src="docs/assets/emblem.png" alt="Emblem" width="120"/>
+<img src="docs/assets/signals_insignia.png" alt="Emblem" width="80"/>
 
-**TACTICAL SATELLITE IMAGERY & RECONNAISSANCE DASHBOARD**
-*Situational awareness, engineered.*
+**TACTICAL SATELLITE IMAGERY & RECONNAISSANCE DASHBOARD**<br>
+*Situational awareness, engineered.*<br>
+*Above Emblem is Pak Army's Signal Corps Insignia Used just for presentation purpose. It does not have any link with this project ot author in any way.*
 
 </div>
