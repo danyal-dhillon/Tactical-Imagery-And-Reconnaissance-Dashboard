@@ -1,0 +1,126 @@
+PROPRIETARY LICENSE — ALL RIGHTS RESERVED
+
+Tactical Satellite Imagery & Reconnaissance Dashboard
+Copyright (c) 2026 [Muhammad Danyal Shahbaz](https://github.com/danyal-dhillon). All rights reserved.
+
+=============================================================================
+IMPORTANT NOTICE — READ CAREFULLY BEFORE ACCESSING THIS REPOSITORY
+=============================================================================
+
+This software package, including but not limited to all source code files,
+Python modules, Qt stylesheets, documentation, database schemas, trained
+machine learning model weights ("best.pt"), and any generated reports or
+derived outputs (collectively, the "Software"), is the confidential and
+proprietary property of the copyright holder identified above (the "Owner").
+
+This is NOT an open-source license. No rights are granted by implication,
+estoppel, or otherwise except as expressly set out below.
+
+-----------------------------------------------------------------------------
+1. OWNERSHIP
+-----------------------------------------------------------------------------
+The Software is licensed, not sold. The Owner retains all right, title, and
+interest in and to the Software, including all intellectual property rights.
+No provision of this license transfers ownership of any kind.
+
+-----------------------------------------------------------------------------
+2. ABSOLUTE RESTRICTIONS — NO PERMITTED USE WITHOUT WRITTEN AUTHORIZATION
+-----------------------------------------------------------------------------
+Unless and until you have obtained PRIOR WRITTEN PERMISSION from the Owner,
+you are expressly prohibited from:
+
+  a) USING the Software in any environment, for any purpose, whether
+     commercial, governmental, academic, or personal;
+
+  b) RUNNING or EXECUTING the Software or loading the model weights;
+
+  c) COPYING or REPRODUCING the Software, in whole or in part, on any
+     medium;
+
+  d) MODIFYING, adapting, translating, or creating derivative works of the
+     Software or the model weights;
+
+  e) DISTRIBUTING, publishing, transmitting, uploading, hosting, or
+     otherwise making the Software available to any third party;
+
+  f) SUBLICENSING, selling, renting, leasing, lending, or commercially
+     exploiting the Software or any portion thereof;
+
+  g) REVERSE ENGINEERING, decompiling, or disassembling the Software or
+     attempting to extract the model architecture or weights, except where
+     such restriction is prohibited by applicable law;
+
+  h) REMOVING or altering any copyright, license, attribution, or
+     confidentiality notices;
+
+  i) USING the Software's outputs to train, fine-tune, distill, or develop
+     any competing model or system.
+
+-----------------------------------------------------------------------------
+3. PERMISSION GRANTS
+-----------------------------------------------------------------------------
+Any permission to use the Software must be granted through a separate
+written license agreement signed by the Owner. Such agreement will define
+the scope, duration, territorial limits, and fees (if any) of the authorized
+use. Possession of the Software does not constitute permission.
+
+Requests for licensing, evaluation, or partnership terms must be directed
+to: [YOUR CONTACT EMAIL]
+
+-----------------------------------------------------------------------------
+4. GOVERNMENT AND DEFENSE USE
+-----------------------------------------------------------------------------
+Nothing in this license grants any government, agency, contractor, or
+military organization any rights in the Software. Government use requires a
+separate negotiated agreement with the Owner.
+
+-----------------------------------------------------------------------------
+5. CONFIDENTIALITY
+-----------------------------------------------------------------------------
+If you have received access to the Software under a non-disclosure or
+evaluation agreement, all terms of that agreement remain in full force, and
+your access must be treated as Confidential Information.
+
+-----------------------------------------------------------------------------
+6. TERMINATION
+-----------------------------------------------------------------------------
+Any rights granted under a separate written agreement terminate immediately
+upon breach of its terms or of this license. Upon termination, you must
+cease all use and destroy all copies of the Software within your possession
+or control, including all copies of the model weights.
+
+-----------------------------------------------------------------------------
+7. DISCLAIMER OF WARRANTIES
+-----------------------------------------------------------------------------
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND NON-INFRINGEMENT.
+
+AI-GENERATED DETECTIONS AND ANALYSES MAY CONTAIN ERRORS. THE SOFTWARE'S
+OUTPUTS ARE FOR INFORMATIONAL AND DECISION-SUPPORT PURPOSES ONLY AND DO NOT
+CONSTITUTE AUTHORITATIVE INTELLIGENCE, TARGETING AUTHORIZATION, OR LEGAL,
+SAFETY, OR OPERATIONAL ADVICE.
+
+-----------------------------------------------------------------------------
+8. LIMITATION OF LIABILITY
+-----------------------------------------------------------------------------
+IN NO EVENT SHALL THE OWNER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY — WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE — ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE, INCLUDING ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES.
+
+-----------------------------------------------------------------------------
+9. GOVERNING LAW
+-----------------------------------------------------------------------------
+This license shall be governed by and construed in accordance with the laws
+of [JURISDICTION — e.g., "the State of Delaware, United States"], without
+regard to conflict-of-law principles.
+
+=============================================================================
+Unauthorized use, reproduction, or distribution of this Software, or any
+portion of it, may result in severe civil and criminal penalties and will be
+prosecuted to the maximum extent possible under the law.
+
+Copyright (c) 2025 [COPYRIGHT HOLDER NAME]. ALL RIGHTS RESERVED.
+=============================================================================
