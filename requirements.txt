@@ -1,0 +1,5 @@
+PyQt6>=6.5
+opencv-python>=4.8
+ultralytics>=8.0
+reportlab>=4.0
+numpy>=1.24
