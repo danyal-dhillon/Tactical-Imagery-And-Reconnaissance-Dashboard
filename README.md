@@ -12,9 +12,9 @@
      File: docs/assets/banner.png -->
 <img src="docs/assets/banner.png" alt="Tactical Reconnaissance Dashboard Banner" width="50%"/>
 
-# TACTICAL SATELLITE IMAGERY & RECONNAISSANCE DASHBOARD
+# TACTICAL IMAGERY & RECONNAISSANCE DASHBOARD
 
-**AI-powered multi-source target detection, SQLite intelligence logging, and automated PDF briefing generation — built natively on PyQt6 + YOLOv8.**
+**AI-powered multi-source target detection, SQLite intelligence logging, and automated PDF briefing generation - built natively on PyQt6 + YOLOv8.**
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-2E3434)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-121414)
@@ -33,7 +33,7 @@
 
 ## Overview
 
-This system is a **native desktop tactical intelligence workstation** for automated analysis of satellite imagery, aerial photographs, recorded surveillance video, and live camera feeds. A custom-trained **YOLOv8 Small (22.5 MB)** model detects and classifies five military asset categories in real time; every detection is persisted to a local **SQLite** intelligence database, enriched through a **hybrid TechInt routing engine**, and compiled into **print-ready PDF intelligence briefings** on demand.
+This system is a **native desktop tactical intelligence workstation** for automated analysis of satellite/normal one imagery, aerial photographs, recorded surveillance video, and live camera feeds. A custom-trained **YOLOv8 Small (22.5 MB)** model detects and classifies five military asset categories in real time; every detection is persisted to a local **SQLite** intelligence database, enriched through a **hybrid TechInt routing engine**, and compiled into **print-ready PDF intelligence briefings** on demand.
 
 The interface runs a decoupled, multi-threaded ingestion core so the operator console stays fluid at high frame rates even while the inference engine saturates the CPU/GPU.
 
@@ -336,7 +336,7 @@ This software, its source code, the `best.pt` model weights, and all associated 
      File: docs/assets/emblem.png -->
 <img src="docs/assets/signals_insignia.png" alt="Emblem" width="80"/>
 
-**TACTICAL SATELLITE IMAGERY & RECONNAISSANCE DASHBOARD**<br>
+**TACTICAL IMAGERY & RECONNAISSANCE DASHBOARD**<br>
 *Situational awareness, engineered.*<br>
 *Above Emblem is Pak Army's Signal Corps Insignia Used just for presentation purpose. It does not have any link with this project ot author in any way.*
 
